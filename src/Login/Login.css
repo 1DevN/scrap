@@ -1,0 +1,114 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 120px;
+    left: 52px;
+    height: 290px;
+    width: 400px; /* Changed width to 400px */
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #870b0b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4c4950;
+  }
+  
+  .signup-link {
+    font-size: 16px;
+    color: rgb(246, 236, 236); /* Text color for the "New to Truckin?" message */
+    padding-top: 20px;
+  }
+  
+  .signup-link a {
+    text-decoration: none;
+    color: #fd0b17; /* Red color for the "Sign up now" link */
+    font-weight: bold;
+    margin-left: 5px; /* Add some space between the message and the link */
+    
+  }
+  
+  .type-box{
+    border-color: #fd0b17;
+    transition: transform 0.2s, border-size 0.2s;
+    height: 28px;
+    margin-bottom: 24px;
+  }
+  .type-box:hover{
+    transform: scale(0.9);
+  }
+  
+  .body {
+    background-image: url('../truck.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 12, 12);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
+  
+  .heading {
+    position: fixed;
+    text-decoration-color: aliceblue;
+    top: -14px;
+    height: 30px;
+    color: aliceblue;
+    z-index: 2;
+    left: 17px;
+  }
+  
+  .submit{
+    background-color: #870b0b;
+    height: 36px;
+    color: aliceblue;
+    font-weight:bold ;
+  }
+
+  .got{
+    color: #fd0b17;
+    font-style: italic;
+  }
